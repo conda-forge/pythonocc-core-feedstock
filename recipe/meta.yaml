@@ -7,7 +7,7 @@ package:
 source:
   # url: https://github.com/tpaviot/pythonocc-core/archive/{{ version }}.tar.gz
   # sha256: 339e8a163bc366650cf0e8b81dba23f857d3ee2261e7560408d49cd94dc76ab9
-  git_url: https://github.com/tpaviot/pythonocc-core/
+  git_url: https://github.com/tpaviot/pythonocc-core
   git_tag: master
 
 build:
