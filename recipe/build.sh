@@ -3,7 +3,7 @@
 mkdir build
 cd build
 
-cmake -G Ninja \
+cmake ${CMAKE_ARGS} -G Ninja \
     -D CMAKE_INSTALL_PREFIX:FILEPATH=$PREFIX \
     -D PYTHONOCC_BUILD_TYPE:STRING=Release \
     -D Python3_FIND_STRATEGY:STRING=LOCATION \
