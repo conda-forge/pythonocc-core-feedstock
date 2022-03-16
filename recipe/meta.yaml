@@ -23,7 +23,6 @@ requirements:
   host:
     - python
     - occt
-    - tbb-devel
   run:
     - python
     - occt
