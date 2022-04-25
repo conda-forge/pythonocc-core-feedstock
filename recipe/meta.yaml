@@ -9,8 +9,7 @@ source:
   sha256: 52a0e2cd5fc2255ab7c8a91f874148b177b2ce9032f43b3f4844bbc27ccffd38
 
 build:
-  number: 0
-  skip: true  # [py < 37]
+  number: 1
 
 requirements:
   build:
@@ -21,7 +20,8 @@ requirements:
     - {{ cdt('libxi-devel') }}           # [linux]
     - ninja
     - cmake
-    - swig
+    - swig 3.*  # [win]
+    - swig      # [unix]
   host:
     - python
     - occt 7.5.1
