@@ -9,6 +9,7 @@ cmake ${CMAKE_ARGS} -G Ninja \
     -D Python3_FIND_STRATEGY:STRING=LOCATION \
     -D Python3_FIND_FRAMEWORK:STRING=NEVER \
     -D SWIG_HIDE_WARNINGS:BOOL=ON \
+    -DPYTHON_INSTALL_DIR=$SP_DIR \
     ..
 
 ninja install
