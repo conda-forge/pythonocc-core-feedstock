@@ -28,10 +28,8 @@ requirements:
   run:
     - python
     - occt                  # [unix]
-    - occt =={{ version }}  # [win]
+    - {{ pin_compatible('occt', max_pin='x.x.x') }}  # [win]
     - six
-  run_constrained:
-    - occt =={{ version }}  # [win]
 
 test:
   source_files:
