@@ -23,12 +23,12 @@ requirements:
     - swig
   host:
     - python
-    - occt 7.5.1
+    - occt {{ version }}
     - tbb-devel
   run:
     - python
-    - occt        # [unix]
-    - occt 7.5.1  # [win]
+    - occt                  # [unix]
+    - occt =={{ version }}  # [win]
     - six
 
 test:
