@@ -30,6 +30,8 @@ requirements:
     - occt                  # [unix]
     - occt =={{ version }}  # [win]
     - six
+  run_constrained:
+    - occt =={{ version }}  # [win]
 
 test:
   source_files:
