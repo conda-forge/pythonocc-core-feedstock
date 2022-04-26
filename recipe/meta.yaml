@@ -27,9 +27,10 @@ requirements:
     - tbb-devel
   run:
     - python
-    - occt                  # [unix]
-    - {{ pin_compatible('occt', max_pin='x.x.x') }}  # [win]
+    - occt
     - six
+  run_constrained:
+    - occt {{ version }}
 
 test:
   source_files:
