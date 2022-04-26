@@ -20,15 +20,15 @@ requirements:
     - {{ cdt('libxi-devel') }}           # [linux]
     - ninja
     - cmake
-    - swig 3.*  # [win]
-    - swig      # [unix]
+    - swig
   host:
     - python
     - occt 7.5.1
     - tbb-devel
   run:
     - python
-    - occt
+    - occt        # [unix]
+    - occt 7.5.1  # [win]
     - six
 
 test:
