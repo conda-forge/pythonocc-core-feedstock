@@ -29,7 +29,8 @@ requirements:
     - python
     - occt
     - six
-    - numpy
+    - numpy >=1.17
+    - svgwrite
   run_constrained:
     - occt {{ version }}
 
