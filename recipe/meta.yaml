@@ -24,7 +24,7 @@ requirements:
   host:
     - python
     - occt {{ version }}
-    - numpy >= 1.17
+    - numpy >=1.17
   run:
     - python
     - occt
