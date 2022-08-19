@@ -24,11 +24,12 @@ requirements:
   host:
     - python
     - occt {{ version }}
-    - tbb-devel
+    - numpy
   run:
     - python
     - occt
     - six
+    - numpy
   run_constrained:
     - occt {{ version }}
 
