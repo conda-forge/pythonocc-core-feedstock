@@ -1,4 +1,4 @@
-{% set version = "7.6.2" %}
+{% set version = "7.7.0" %}
 
 package:
   name: pythonocc-core
@@ -9,7 +9,7 @@ source:
   sha256: 84b1dad3b262027efc3314ab1f7cc8167ac353a1ffeea081e741e4c60319b848
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
