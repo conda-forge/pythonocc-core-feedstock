@@ -21,7 +21,7 @@ requirements:
     - {{ cdt('libxi-devel') }}           # [linux]
     - ninja
     - cmake
-    - swig
+    - swig 4.1.0
   host:
     - python
     - occt {{ version }}
