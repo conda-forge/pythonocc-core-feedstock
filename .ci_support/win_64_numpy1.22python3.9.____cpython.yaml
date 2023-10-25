@@ -5,9 +5,9 @@ channel_targets:
 cxx_compiler:
 - vs2019
 numpy:
-- '1.20'
+- '1.22'
 occt:
-- '7.7'
+- 7.7.2
 pin_run_as_build:
   occt:
     max_pin: x.x
