@@ -1,4 +1,4 @@
-{% set version = "7.7.0" %}
+{% set version = "7.7.2" %}
 
 package:
   name: pythonocc-core
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://github.com/tpaviot/pythonocc-core/archive/{{ version }}.tar.gz
-  sha256: 9b27003b87799badfae04f8cacd03b8faa1309600c9de8021434d7511e718f82
+  sha256: 0f6473be2800a64222ef86a3de70e3beaa2320a3839ebde1b4f6e845a369c0d9
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
