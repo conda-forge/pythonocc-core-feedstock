@@ -1,5 +1,8 @@
 {% set version = "7.7.2" %}
 
+{% set build = build + 100 %}   # [variant == "novtk"]
+{% set build = build + 200 %}   # [variant == "all"]
+
 package:
   name: pythonocc-core
   version: {{ version }}
@@ -9,7 +12,8 @@ source:
   sha256: 0f6473be2800a64222ef86a3de70e3beaa2320a3839ebde1b4f6e845a369c0d9
 
 build:
-  number: 1
+  string: {{ variant }}_h{{ PKG_HASH }}_{{ build }}
+  number: 2
 
 requirements:
   build:
@@ -24,7 +28,7 @@ requirements:
     - swig 4.1.1
   host:
     - python
-    - occt {{ version }}
+    - occt {{ version }} *{{ variant }}*
     - numpy
   run:
     - python
@@ -33,7 +37,7 @@ requirements:
     - {{ pin_compatible("numpy") }}
     - svgwrite
   run_constrained:
-    - occt {{ version }}
+    - occt {{ version }} *{{ variant }}*
 
 test:
   source_files:
