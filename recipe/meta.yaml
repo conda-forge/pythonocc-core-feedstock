@@ -1,5 +1,7 @@
 {% set version = "7.7.2" %}
+{% set build = 2 %}
 
+# Higher number -> Always prioritize "all" variant over "novtk" variant
 {% set build = build + 100 %}   # [variant == "novtk"]
 {% set build = build + 200 %}   # [variant == "all"]
 
@@ -13,7 +15,7 @@ source:
 
 build:
   string: {{ variant }}_h{{ PKG_HASH }}_{{ build }}
-  number: 2
+  number: {{ build }}
 
 requirements:
   build:
