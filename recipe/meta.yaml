@@ -51,7 +51,7 @@ test:
     - pyqt >=5
 
 about:
-  home: http://www.pythonocc.org/
+  home: https://github.com/tpaviot/pythonocc-core
   license: LGPL-3.0
   license_family: LGPL
   license_file: LICENSE
