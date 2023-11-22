@@ -34,7 +34,7 @@ requirements:
     - numpy
   run:
     - python
-    - occt
+    - occt {{ version }} *{{ variant }}*
     - six
     - {{ pin_compatible("numpy") }}
     - svgwrite
