@@ -1,5 +1,5 @@
-{% set version = "7.7.2" %}
-{% set build = 2 %}
+{% set version = "7.8.1" %}
+{% set build = 0 %}
 
 # Higher number -> Always prioritize "all" variant over "novtk" variant
 {% set build = build + 100 %}   # [variant == "novtk"]
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://github.com/tpaviot/pythonocc-core/archive/{{ version }}.tar.gz
-  sha256: 0f6473be2800a64222ef86a3de70e3beaa2320a3839ebde1b4f6e845a369c0d9
+  sha256: 098dfa2d13676b98d3cf7b5f686c2369d67327e30fd9279dff10196138766702
 
 build:
   string: {{ variant }}_h{{ PKG_HASH }}_{{ build }}
