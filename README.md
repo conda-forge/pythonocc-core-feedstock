@@ -3,9 +3,9 @@ About pythonocc-core-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pythonocc-core-feedstock/blob/main/LICENSE.txt)
 
-Home: http://www.pythonocc.org/
+Home: https://github.com/tpaviot/pythonocc-core
 
-Package license: LGPL-3.0
+Package license: LGPL-3.0-or-later
 
 Summary: python bindings for opencascade (occt)
 
