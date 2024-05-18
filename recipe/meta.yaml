@@ -1,5 +1,5 @@
 {% set version = "7.7.2" %}
-{% set build = 2 %}
+{% set build = 3 %}
 
 # Higher number -> Always prioritize "all" variant over "novtk" variant
 {% set build = build + 100 %}   # [variant == "novtk"]
@@ -23,6 +23,7 @@ requirements:
     - numpy                                  # [build_platform != target_platform]
     - cross-python_{{ target_platform }}     # [build_platform != target_platform]
     - {{ compiler('cxx') }}
+    - {{ stdlib("c") }}
     - {{ cdt('mesa-libgl-devel') }}      # [linux]
     - {{ cdt('libxi-devel') }}           # [linux]
     - ninja
@@ -36,7 +37,6 @@ requirements:
     - python
     - occt {{ version }} *{{ variant }}*
     - six
-    - {{ pin_compatible("numpy") }}
     - svgwrite
   run_constrained:
     - occt {{ version }} *{{ variant }}*
