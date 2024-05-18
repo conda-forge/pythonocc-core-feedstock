@@ -5,44 +5,38 @@
 jobs:
 - job: osx
   pool:
-    vmImage: macOS-11
+    vmImage: macOS-12
   strategy:
     matrix:
-      osx_64_numpy1.22python3.10.____cpythonvariantall:
-        CONFIG: osx_64_numpy1.22python3.10.____cpythonvariantall
-        UPLOAD_PACKAGES: 'True'
-      osx_64_numpy1.22python3.10.____cpythonvariantnovtk:
-        CONFIG: osx_64_numpy1.22python3.10.____cpythonvariantnovtk
-        UPLOAD_PACKAGES: 'True'
       osx_64_numpy1.22python3.8.____cpythonvariantall:
         CONFIG: osx_64_numpy1.22python3.8.____cpythonvariantall
         UPLOAD_PACKAGES: 'True'
       osx_64_numpy1.22python3.8.____cpythonvariantnovtk:
         CONFIG: osx_64_numpy1.22python3.8.____cpythonvariantnovtk
         UPLOAD_PACKAGES: 'True'
-      osx_64_numpy1.22python3.9.____cpythonvariantall:
-        CONFIG: osx_64_numpy1.22python3.9.____cpythonvariantall
+      osx_64_numpy2.0python3.10.____cpythonvariantall:
+        CONFIG: osx_64_numpy2.0python3.10.____cpythonvariantall
         UPLOAD_PACKAGES: 'True'
-      osx_64_numpy1.22python3.9.____cpythonvariantnovtk:
-        CONFIG: osx_64_numpy1.22python3.9.____cpythonvariantnovtk
+      osx_64_numpy2.0python3.10.____cpythonvariantnovtk:
+        CONFIG: osx_64_numpy2.0python3.10.____cpythonvariantnovtk
         UPLOAD_PACKAGES: 'True'
-      osx_64_numpy1.23python3.11.____cpythonvariantall:
-        CONFIG: osx_64_numpy1.23python3.11.____cpythonvariantall
+      osx_64_numpy2.0python3.11.____cpythonvariantall:
+        CONFIG: osx_64_numpy2.0python3.11.____cpythonvariantall
         UPLOAD_PACKAGES: 'True'
-      osx_64_numpy1.23python3.11.____cpythonvariantnovtk:
-        CONFIG: osx_64_numpy1.23python3.11.____cpythonvariantnovtk
+      osx_64_numpy2.0python3.11.____cpythonvariantnovtk:
+        CONFIG: osx_64_numpy2.0python3.11.____cpythonvariantnovtk
         UPLOAD_PACKAGES: 'True'
-      osx_64_numpy1.26python3.12.____cpythonvariantall:
-        CONFIG: osx_64_numpy1.26python3.12.____cpythonvariantall
+      osx_64_numpy2.0python3.12.____cpythonvariantall:
+        CONFIG: osx_64_numpy2.0python3.12.____cpythonvariantall
         UPLOAD_PACKAGES: 'True'
-      osx_64_numpy1.26python3.12.____cpythonvariantnovtk:
-        CONFIG: osx_64_numpy1.26python3.12.____cpythonvariantnovtk
+      osx_64_numpy2.0python3.12.____cpythonvariantnovtk:
+        CONFIG: osx_64_numpy2.0python3.12.____cpythonvariantnovtk
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_numpy1.22python3.10.____cpythonvariantall:
-        CONFIG: osx_arm64_numpy1.22python3.10.____cpythonvariantall
+      osx_64_numpy2.0python3.9.____cpythonvariantall:
+        CONFIG: osx_64_numpy2.0python3.9.____cpythonvariantall
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_numpy1.22python3.10.____cpythonvariantnovtk:
-        CONFIG: osx_arm64_numpy1.22python3.10.____cpythonvariantnovtk
+      osx_64_numpy2.0python3.9.____cpythonvariantnovtk:
+        CONFIG: osx_64_numpy2.0python3.9.____cpythonvariantnovtk
         UPLOAD_PACKAGES: 'True'
       osx_arm64_numpy1.22python3.8.____cpythonvariantall:
         CONFIG: osx_arm64_numpy1.22python3.8.____cpythonvariantall
@@ -50,25 +44,32 @@ jobs:
       osx_arm64_numpy1.22python3.8.____cpythonvariantnovtk:
         CONFIG: osx_arm64_numpy1.22python3.8.____cpythonvariantnovtk
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_numpy1.22python3.9.____cpythonvariantall:
-        CONFIG: osx_arm64_numpy1.22python3.9.____cpythonvariantall
+      osx_arm64_numpy2.0python3.10.____cpythonvariantall:
+        CONFIG: osx_arm64_numpy2.0python3.10.____cpythonvariantall
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_numpy1.22python3.9.____cpythonvariantnovtk:
-        CONFIG: osx_arm64_numpy1.22python3.9.____cpythonvariantnovtk
+      osx_arm64_numpy2.0python3.10.____cpythonvariantnovtk:
+        CONFIG: osx_arm64_numpy2.0python3.10.____cpythonvariantnovtk
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_numpy1.23python3.11.____cpythonvariantall:
-        CONFIG: osx_arm64_numpy1.23python3.11.____cpythonvariantall
+      osx_arm64_numpy2.0python3.11.____cpythonvariantall:
+        CONFIG: osx_arm64_numpy2.0python3.11.____cpythonvariantall
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_numpy1.23python3.11.____cpythonvariantnovtk:
-        CONFIG: osx_arm64_numpy1.23python3.11.____cpythonvariantnovtk
+      osx_arm64_numpy2.0python3.11.____cpythonvariantnovtk:
+        CONFIG: osx_arm64_numpy2.0python3.11.____cpythonvariantnovtk
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_numpy1.26python3.12.____cpythonvariantall:
-        CONFIG: osx_arm64_numpy1.26python3.12.____cpythonvariantall
+      osx_arm64_numpy2.0python3.12.____cpythonvariantall:
+        CONFIG: osx_arm64_numpy2.0python3.12.____cpythonvariantall
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_numpy1.26python3.12.____cpythonvariantnovtk:
-        CONFIG: osx_arm64_numpy1.26python3.12.____cpythonvariantnovtk
+      osx_arm64_numpy2.0python3.12.____cpythonvariantnovtk:
+        CONFIG: osx_arm64_numpy2.0python3.12.____cpythonvariantnovtk
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_numpy2.0python3.9.____cpythonvariantall:
+        CONFIG: osx_arm64_numpy2.0python3.9.____cpythonvariantall
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_numpy2.0python3.9.____cpythonvariantnovtk:
+        CONFIG: osx_arm64_numpy2.0python3.9.____cpythonvariantnovtk
         UPLOAD_PACKAGES: 'True'
   timeoutInMinutes: 360
+  variables: {}
 
   steps:
   # TODO: Fast finish on azure pipelines?
