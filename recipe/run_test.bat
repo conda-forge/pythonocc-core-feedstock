@@ -1,2 +1,2 @@
 cd test
-pytest core_wrapper_features_unittest.py
+pytest -sv
