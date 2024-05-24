@@ -1,4 +1,6 @@
 #!/bin/bash
-cd test
-python run_tests.py
-python core_webgl_unittest.py
+if [ "$(uname)" == "Linux" ]; then
+    cd ../work/test
+    pytest -sv
+    mypy test_mypy_classic_occ_bottle.py
+fi
