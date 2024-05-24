@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://github.com/tpaviot/pythonocc-core/archive/{{ version }}.tar.gz
-  sha256: 098dfa2d13676b98d3cf7b5f686c2369d67327e30fd9279dff10196138766702
+  sha256: 28fc7d85259bfc4e34970ab46eb7cf1f45db18f2aad9d8bb247e919ad8e22728
 
 build:
   string: {{ variant }}_h{{ PKG_HASH }}_{{ build }}
