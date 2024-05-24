@@ -28,7 +28,7 @@ requirements:
     - {{ cdt('libxi-devel') }}           # [linux]
     - ninja
     - cmake
-    - swig 4.1.1
+    - swig 4.2.1
   host:
     - python
     - occt {{ version }} *{{ variant }}*
@@ -50,6 +50,8 @@ test:
     - OCC.Core.BRepPrimAPI
   requires:
     - pyqt >=5
+    - pytest
+    - mypy
 
 about:
   home: https://github.com/tpaviot/pythonocc-core
