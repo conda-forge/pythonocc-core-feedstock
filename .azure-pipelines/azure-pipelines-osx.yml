@@ -5,7 +5,7 @@
 jobs:
 - job: osx
   pool:
-    vmImage: macOS-12
+    vmImage: macOS-13
   strategy:
     matrix:
       osx_64_numpy1.22python3.10.____cpythonvariantall:
@@ -13,12 +13,6 @@ jobs:
         UPLOAD_PACKAGES: 'True'
       osx_64_numpy1.22python3.10.____cpythonvariantnovtk:
         CONFIG: osx_64_numpy1.22python3.10.____cpythonvariantnovtk
-        UPLOAD_PACKAGES: 'True'
-      osx_64_numpy1.22python3.8.____cpythonvariantall:
-        CONFIG: osx_64_numpy1.22python3.8.____cpythonvariantall
-        UPLOAD_PACKAGES: 'True'
-      osx_64_numpy1.22python3.8.____cpythonvariantnovtk:
-        CONFIG: osx_64_numpy1.22python3.8.____cpythonvariantnovtk
         UPLOAD_PACKAGES: 'True'
       osx_64_numpy1.22python3.9.____cpythonvariantall:
         CONFIG: osx_64_numpy1.22python3.9.____cpythonvariantall
@@ -43,12 +37,6 @@ jobs:
         UPLOAD_PACKAGES: 'True'
       osx_arm64_numpy1.22python3.10.____cpythonvariantnovtk:
         CONFIG: osx_arm64_numpy1.22python3.10.____cpythonvariantnovtk
-        UPLOAD_PACKAGES: 'True'
-      osx_arm64_numpy1.22python3.8.____cpythonvariantall:
-        CONFIG: osx_arm64_numpy1.22python3.8.____cpythonvariantall
-        UPLOAD_PACKAGES: 'True'
-      osx_arm64_numpy1.22python3.8.____cpythonvariantnovtk:
-        CONFIG: osx_arm64_numpy1.22python3.8.____cpythonvariantnovtk
         UPLOAD_PACKAGES: 'True'
       osx_arm64_numpy1.22python3.9.____cpythonvariantall:
         CONFIG: osx_arm64_numpy1.22python3.9.____cpythonvariantall
