@@ -11,7 +11,7 @@ cmake ${CMAKE_ARGS} -G Ninja \
     -D SWIG_HIDE_WARNINGS:BOOL=ON \
     -D PYTHONOCC_INSTALL_DIRECTORY:FILEPATH=$SP_DIR/OCC \
     -D PYTHONOCC_MESHDS_NUMPY:BOOL=ON \
-    -D PYTHON3_NUMPY_INCLUDE_DIRS:FILEPATH=${PREFIX}/include \
+    -D Python3_NumPy_INCLUDE_DIR=$SP_DIR/numpy/_core/include \
     ..
 
 ninja install
