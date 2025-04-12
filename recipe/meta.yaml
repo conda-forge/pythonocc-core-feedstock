@@ -1,5 +1,5 @@
-{% set version = "7.8.1.1" %}
-{% set occt_version = "7.8.1" %}
+{% set version = "7.9.0" %}
+{% set occt_version = "7.9.0" %}
 {% set build = 0 %}
 
 # Higher number -> Always prioritize "all" variant over "novtk" variant
@@ -12,7 +12,7 @@ package:
 
 source:
   url: https://github.com/tpaviot/pythonocc-core/archive/{{ version }}.tar.gz
-  sha256: f95f74f7fdf9d2eb1f1a5ff8e26d9f3a47c3ca190b8897f478e3562fcf13ef80
+  sha256: 98e53657f54e8a9c3477a81c0b4a11bc6659d5f60123e263419521b42a8e111f
 
 build:
   string: {{ variant }}_h{{ PKG_HASH }}_{{ build }}
@@ -29,7 +29,7 @@ requirements:
     - {{ cdt('libxi-devel') }}           # [linux]
     - ninja
     - cmake
-    - swig 4.2.1
+    - swig 4.3.0
   host:
     - python
     - occt {{ occt_version }} *{{ variant }}*
