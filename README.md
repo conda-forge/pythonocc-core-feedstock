@@ -34,283 +34,563 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_python3.10.____cpythonvariantall</td>
+              <td>linux_64_numpy2.0python3.10.____cpythonvariantall</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.10.____cpythonvariantall" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_numpy2.0python3.10.____cpythonvariantall" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.10.____cpythonvariantnovtk</td>
+              <td>linux_64_numpy2.0python3.10.____cpythonvariantnovtk</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.10.____cpythonvariantnovtk" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_numpy2.0python3.10.____cpythonvariantnovtk" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.11.____cpythonvariantall</td>
+              <td>linux_64_numpy2.0python3.11.____cpythonvariantall</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.11.____cpythonvariantall" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_numpy2.0python3.11.____cpythonvariantall" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.11.____cpythonvariantnovtk</td>
+              <td>linux_64_numpy2.0python3.11.____cpythonvariantnovtk</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.11.____cpythonvariantnovtk" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_numpy2.0python3.11.____cpythonvariantnovtk" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.12.____cpythonvariantall</td>
+              <td>linux_64_numpy2.0python3.12.____cpythonvariantall</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.12.____cpythonvariantall" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_numpy2.0python3.12.____cpythonvariantall" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.12.____cpythonvariantnovtk</td>
+              <td>linux_64_numpy2.0python3.12.____cpythonvariantnovtk</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.12.____cpythonvariantnovtk" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_numpy2.0python3.12.____cpythonvariantnovtk" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.9.____cpythonvariantall</td>
+              <td>linux_64_numpy2.0python3.13.____cp313variantall</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.9.____cpythonvariantall" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_numpy2.0python3.13.____cp313variantall" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.9.____cpythonvariantnovtk</td>
+              <td>linux_64_numpy2.0python3.13.____cp313variantnovtk</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.9.____cpythonvariantnovtk" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_numpy2.0python3.13.____cp313variantnovtk" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_python3.10.____cpythonvariantall</td>
+              <td>linux_64_numpy2python3.10.____cpythonvariantall</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_python3.10.____cpythonvariantall" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_numpy2python3.10.____cpythonvariantall" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_python3.10.____cpythonvariantnovtk</td>
+              <td>linux_64_numpy2python3.10.____cpythonvariantnovtk</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_python3.10.____cpythonvariantnovtk" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_numpy2python3.10.____cpythonvariantnovtk" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_python3.11.____cpythonvariantall</td>
+              <td>linux_64_numpy2python3.11.____cpythonvariantall</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_python3.11.____cpythonvariantall" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_numpy2python3.11.____cpythonvariantall" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_python3.11.____cpythonvariantnovtk</td>
+              <td>linux_64_numpy2python3.11.____cpythonvariantnovtk</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_python3.11.____cpythonvariantnovtk" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_numpy2python3.11.____cpythonvariantnovtk" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_python3.12.____cpythonvariantall</td>
+              <td>linux_64_numpy2python3.12.____cpythonvariantall</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_python3.12.____cpythonvariantall" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_numpy2python3.12.____cpythonvariantall" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_python3.12.____cpythonvariantnovtk</td>
+              <td>linux_64_numpy2python3.12.____cpythonvariantnovtk</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_python3.12.____cpythonvariantnovtk" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_numpy2python3.12.____cpythonvariantnovtk" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_python3.9.____cpythonvariantall</td>
+              <td>linux_64_numpy2python3.13.____cp313variantall</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_python3.9.____cpythonvariantall" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_numpy2python3.13.____cp313variantall" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_python3.9.____cpythonvariantnovtk</td>
+              <td>linux_64_numpy2python3.13.____cp313variantnovtk</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_python3.9.____cpythonvariantnovtk" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_numpy2python3.13.____cp313variantnovtk" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.10.____cpythonvariantall</td>
+              <td>linux_aarch64_numpy2.0python3.10.____cpythonvariantall</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.10.____cpythonvariantall" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_numpy2.0python3.10.____cpythonvariantall" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.10.____cpythonvariantnovtk</td>
+              <td>linux_aarch64_numpy2.0python3.10.____cpythonvariantnovtk</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.10.____cpythonvariantnovtk" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_numpy2.0python3.10.____cpythonvariantnovtk" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.11.____cpythonvariantall</td>
+              <td>linux_aarch64_numpy2.0python3.11.____cpythonvariantall</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.11.____cpythonvariantall" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_numpy2.0python3.11.____cpythonvariantall" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.11.____cpythonvariantnovtk</td>
+              <td>linux_aarch64_numpy2.0python3.11.____cpythonvariantnovtk</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.11.____cpythonvariantnovtk" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_numpy2.0python3.11.____cpythonvariantnovtk" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.12.____cpythonvariantall</td>
+              <td>linux_aarch64_numpy2.0python3.12.____cpythonvariantall</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.12.____cpythonvariantall" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_numpy2.0python3.12.____cpythonvariantall" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.12.____cpythonvariantnovtk</td>
+              <td>linux_aarch64_numpy2.0python3.12.____cpythonvariantnovtk</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.12.____cpythonvariantnovtk" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_numpy2.0python3.12.____cpythonvariantnovtk" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.9.____cpythonvariantall</td>
+              <td>linux_aarch64_numpy2.0python3.13.____cp313variantall</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.9.____cpythonvariantall" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_numpy2.0python3.13.____cp313variantall" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.9.____cpythonvariantnovtk</td>
+              <td>linux_aarch64_numpy2.0python3.13.____cp313variantnovtk</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.9.____cpythonvariantnovtk" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_numpy2.0python3.13.____cp313variantnovtk" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_python3.10.____cpythonvariantall</td>
+              <td>linux_aarch64_numpy2python3.10.____cpythonvariantall</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.10.____cpythonvariantall" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_numpy2python3.10.____cpythonvariantall" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_python3.10.____cpythonvariantnovtk</td>
+              <td>linux_aarch64_numpy2python3.10.____cpythonvariantnovtk</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.10.____cpythonvariantnovtk" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_numpy2python3.10.____cpythonvariantnovtk" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_python3.11.____cpythonvariantall</td>
+              <td>linux_aarch64_numpy2python3.11.____cpythonvariantall</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.11.____cpythonvariantall" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_numpy2python3.11.____cpythonvariantall" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_python3.11.____cpythonvariantnovtk</td>
+              <td>linux_aarch64_numpy2python3.11.____cpythonvariantnovtk</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.11.____cpythonvariantnovtk" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_numpy2python3.11.____cpythonvariantnovtk" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_python3.12.____cpythonvariantall</td>
+              <td>linux_aarch64_numpy2python3.12.____cpythonvariantall</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.12.____cpythonvariantall" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_numpy2python3.12.____cpythonvariantall" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_python3.12.____cpythonvariantnovtk</td>
+              <td>linux_aarch64_numpy2python3.12.____cpythonvariantnovtk</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.12.____cpythonvariantnovtk" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_numpy2python3.12.____cpythonvariantnovtk" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_python3.9.____cpythonvariantall</td>
+              <td>linux_aarch64_numpy2python3.13.____cp313variantall</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.9.____cpythonvariantall" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_numpy2python3.13.____cp313variantall" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_python3.9.____cpythonvariantnovtk</td>
+              <td>linux_aarch64_numpy2python3.13.____cp313variantnovtk</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.9.____cpythonvariantnovtk" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_numpy2python3.13.____cp313variantnovtk" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.10.____cpythonvariantall</td>
+              <td>osx_64_numpy2.0python3.10.____cpythonvariantall</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.10.____cpythonvariantall" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_numpy2.0python3.10.____cpythonvariantall" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.10.____cpythonvariantnovtk</td>
+              <td>osx_64_numpy2.0python3.10.____cpythonvariantnovtk</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.10.____cpythonvariantnovtk" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_numpy2.0python3.10.____cpythonvariantnovtk" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.11.____cpythonvariantall</td>
+              <td>osx_64_numpy2.0python3.11.____cpythonvariantall</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.11.____cpythonvariantall" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_numpy2.0python3.11.____cpythonvariantall" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.11.____cpythonvariantnovtk</td>
+              <td>osx_64_numpy2.0python3.11.____cpythonvariantnovtk</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.11.____cpythonvariantnovtk" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_numpy2.0python3.11.____cpythonvariantnovtk" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.12.____cpythonvariantall</td>
+              <td>osx_64_numpy2.0python3.12.____cpythonvariantall</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.12.____cpythonvariantall" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_numpy2.0python3.12.____cpythonvariantall" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.12.____cpythonvariantnovtk</td>
+              <td>osx_64_numpy2.0python3.12.____cpythonvariantnovtk</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.12.____cpythonvariantnovtk" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_numpy2.0python3.12.____cpythonvariantnovtk" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.9.____cpythonvariantall</td>
+              <td>osx_64_numpy2.0python3.13.____cp313variantall</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.9.____cpythonvariantall" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_numpy2.0python3.13.____cp313variantall" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.9.____cpythonvariantnovtk</td>
+              <td>osx_64_numpy2.0python3.13.____cp313variantnovtk</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.9.____cpythonvariantnovtk" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_numpy2.0python3.13.____cp313variantnovtk" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_numpy2python3.10.____cpythonvariantall</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_numpy2python3.10.____cpythonvariantall" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_numpy2python3.10.____cpythonvariantnovtk</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_numpy2python3.10.____cpythonvariantnovtk" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_numpy2python3.11.____cpythonvariantall</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_numpy2python3.11.____cpythonvariantall" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_numpy2python3.11.____cpythonvariantnovtk</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_numpy2python3.11.____cpythonvariantnovtk" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_numpy2python3.12.____cpythonvariantall</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_numpy2python3.12.____cpythonvariantall" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_numpy2python3.12.____cpythonvariantnovtk</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_numpy2python3.12.____cpythonvariantnovtk" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_numpy2python3.13.____cp313variantall</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_numpy2python3.13.____cp313variantall" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_numpy2python3.13.____cp313variantnovtk</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_numpy2python3.13.____cp313variantnovtk" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_numpy2.0python3.10.____cpythonvariantall</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_numpy2.0python3.10.____cpythonvariantall" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_numpy2.0python3.10.____cpythonvariantnovtk</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_numpy2.0python3.10.____cpythonvariantnovtk" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_numpy2.0python3.11.____cpythonvariantall</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_numpy2.0python3.11.____cpythonvariantall" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_numpy2.0python3.11.____cpythonvariantnovtk</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_numpy2.0python3.11.____cpythonvariantnovtk" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_numpy2.0python3.12.____cpythonvariantall</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_numpy2.0python3.12.____cpythonvariantall" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_numpy2.0python3.12.____cpythonvariantnovtk</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_numpy2.0python3.12.____cpythonvariantnovtk" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_numpy2.0python3.13.____cp313variantall</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_numpy2.0python3.13.____cp313variantall" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_numpy2.0python3.13.____cp313variantnovtk</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_numpy2.0python3.13.____cp313variantnovtk" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_numpy2python3.10.____cpythonvariantall</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_numpy2python3.10.____cpythonvariantall" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_numpy2python3.10.____cpythonvariantnovtk</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_numpy2python3.10.____cpythonvariantnovtk" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_numpy2python3.11.____cpythonvariantall</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_numpy2python3.11.____cpythonvariantall" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_numpy2python3.11.____cpythonvariantnovtk</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_numpy2python3.11.____cpythonvariantnovtk" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_numpy2python3.12.____cpythonvariantall</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_numpy2python3.12.____cpythonvariantall" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_numpy2python3.12.____cpythonvariantnovtk</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_numpy2python3.12.____cpythonvariantnovtk" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_numpy2python3.13.____cp313variantall</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_numpy2python3.13.____cp313variantall" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_numpy2python3.13.____cp313variantnovtk</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_numpy2python3.13.____cp313variantnovtk" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_numpy2.0python3.10.____cpythonvariantall</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=win&configuration=win%20win_64_numpy2.0python3.10.____cpythonvariantall" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_numpy2.0python3.10.____cpythonvariantnovtk</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=win&configuration=win%20win_64_numpy2.0python3.10.____cpythonvariantnovtk" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_numpy2.0python3.11.____cpythonvariantall</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=win&configuration=win%20win_64_numpy2.0python3.11.____cpythonvariantall" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_numpy2.0python3.11.____cpythonvariantnovtk</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=win&configuration=win%20win_64_numpy2.0python3.11.____cpythonvariantnovtk" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_numpy2.0python3.12.____cpythonvariantall</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=win&configuration=win%20win_64_numpy2.0python3.12.____cpythonvariantall" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_numpy2.0python3.12.____cpythonvariantnovtk</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=win&configuration=win%20win_64_numpy2.0python3.12.____cpythonvariantnovtk" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_numpy2.0python3.13.____cp313variantall</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=win&configuration=win%20win_64_numpy2.0python3.13.____cp313variantall" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_numpy2.0python3.13.____cp313variantnovtk</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=win&configuration=win%20win_64_numpy2.0python3.13.____cp313variantnovtk" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_numpy2python3.10.____cpythonvariantall</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=win&configuration=win%20win_64_numpy2python3.10.____cpythonvariantall" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_numpy2python3.10.____cpythonvariantnovtk</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=win&configuration=win%20win_64_numpy2python3.10.____cpythonvariantnovtk" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_numpy2python3.11.____cpythonvariantall</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=win&configuration=win%20win_64_numpy2python3.11.____cpythonvariantall" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_numpy2python3.11.____cpythonvariantnovtk</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=win&configuration=win%20win_64_numpy2python3.11.____cpythonvariantnovtk" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_numpy2python3.12.____cpythonvariantall</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=win&configuration=win%20win_64_numpy2python3.12.____cpythonvariantall" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_numpy2python3.12.____cpythonvariantnovtk</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=win&configuration=win%20win_64_numpy2python3.12.____cpythonvariantnovtk" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_numpy2python3.13.____cp313variantall</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=win&configuration=win%20win_64_numpy2python3.13.____cp313variantall" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_numpy2python3.13.____cp313variantnovtk</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=win&configuration=win%20win_64_numpy2python3.13.____cp313variantnovtk" alt="variant">
                 </a>
               </td>
             </tr>
