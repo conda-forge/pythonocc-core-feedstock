@@ -26,11 +26,17 @@ jobs:
       win_64_python3.12.____cpythonvariantnovtk:
         CONFIG: win_64_python3.12.____cpythonvariantnovtk
         UPLOAD_PACKAGES: 'True'
-      win_64_python3.9.____cpythonvariantall:
-        CONFIG: win_64_python3.9.____cpythonvariantall
+      win_64_python3.13.____cp313variantall:
+        CONFIG: win_64_python3.13.____cp313variantall
         UPLOAD_PACKAGES: 'True'
-      win_64_python3.9.____cpythonvariantnovtk:
-        CONFIG: win_64_python3.9.____cpythonvariantnovtk
+      win_64_python3.13.____cp313variantnovtk:
+        CONFIG: win_64_python3.13.____cp313variantnovtk
+        UPLOAD_PACKAGES: 'True'
+      win_64_python3.14.____cp314variantall:
+        CONFIG: win_64_python3.14.____cp314variantall
+        UPLOAD_PACKAGES: 'True'
+      win_64_python3.14.____cp314variantnovtk:
+        CONFIG: win_64_python3.14.____cp314variantnovtk
         UPLOAD_PACKAGES: 'True'
   timeoutInMinutes: 360
   variables:
@@ -45,6 +51,7 @@ jobs:
       displayName: Run Windows build
       env:
         MINIFORGE_HOME: $(MINIFORGE_HOME)
+        CONDA_BLD_PATH: $(CONDA_BLD_PATH)
         PYTHONUNBUFFERED: 1
         CONFIG: $(CONFIG)
         CI: azure
