@@ -1,6 +1,6 @@
 {% set version = "7.9.0" %}
 {% set occt_version = "7.9.0" %}
-{% set build = 1 %}
+{% set build = 2 %}
 
 # Higher number -> Always prioritize "all" variant over "novtk" variant
 {% set build = build + 100 %}   # [variant == "novtk"]
