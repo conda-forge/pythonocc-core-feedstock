@@ -1,6 +1,6 @@
 {% set version = "7.9.3" %}
 {% set occt_version = "7.9.3" %}
-{% set build = 0 %}
+{% set build = 1 %}
 
 # Higher number -> Always prioritize "all" variant over "novtk" variant
 {% set build = build + 100 %}   # [variant == "novtk"]
@@ -25,8 +25,6 @@ requirements:
     - cross-python_{{ target_platform }}     # [build_platform != target_platform]
     - {{ compiler('cxx') }}
     - {{ stdlib("c") }}
-    - {{ cdt('mesa-libgl-devel') }}      # [linux]
-    - {{ cdt('libxi-devel') }}           # [linux]
     - ninja
     - cmake
     - swig 4.3.0
@@ -34,6 +32,8 @@ requirements:
     - python
     - occt {{ occt_version }} *{{ variant }}*
     - numpy
+    - libgl-devel                        # [linux]
+    - xorg-libxi                         # [linux]
   run:
     - python
     - occt {{ occt_version }} *{{ variant }}*
