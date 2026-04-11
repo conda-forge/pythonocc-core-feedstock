@@ -33,73 +33,17 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_python3.10.____cpythonvariantall</td>
+              <td>linux_64_variantall</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.10.____cpythonvariantall" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_variantall" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.10.____cpythonvariantnovtk</td>
+              <td>linux_64_variantnovtk</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.10.____cpythonvariantnovtk" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_python3.11.____cpythonvariantall</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.11.____cpythonvariantall" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_python3.11.____cpythonvariantnovtk</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.11.____cpythonvariantnovtk" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_python3.12.____cpythonvariantall</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.12.____cpythonvariantall" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_python3.12.____cpythonvariantnovtk</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.12.____cpythonvariantnovtk" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_python3.13.____cp313variantall</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.13.____cp313variantall" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_python3.13.____cp313variantnovtk</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.13.____cp313variantnovtk" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_python3.14.____cp314variantall</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.14.____cp314variantall" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_python3.14.____cp314variantnovtk</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.14.____cp314variantnovtk" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_variantnovtk" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -396,6 +340,7 @@ Current release info
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-pythonocc--core-green.svg)](https://anaconda.org/conda-forge/pythonocc-core) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pythonocc-core.svg)](https://anaconda.org/conda-forge/pythonocc-core) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pythonocc-core.svg)](https://anaconda.org/conda-forge/pythonocc-core) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pythonocc-core.svg)](https://anaconda.org/conda-forge/pythonocc-core) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pythonocc--core--source-green.svg)](https://anaconda.org/conda-forge/pythonocc-core-source) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pythonocc-core-source.svg)](https://anaconda.org/conda-forge/pythonocc-core-source) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pythonocc-core-source.svg)](https://anaconda.org/conda-forge/pythonocc-core-source) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pythonocc-core-source.svg)](https://anaconda.org/conda-forge/pythonocc-core-source) |
 
 Installing pythonocc-core
 =========================
@@ -407,16 +352,16 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `pythonocc-core` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `pythonocc-core, pythonocc-core-source` can be installed with `conda`:
 
 ```
-conda install pythonocc-core
+conda install pythonocc-core pythonocc-core-source
 ```
 
 or with `mamba`:
 
 ```
-mamba install pythonocc-core
+mamba install pythonocc-core pythonocc-core-source
 ```
 
 It is possible to list all of the versions of `pythonocc-core` available on your platform with `conda`:
