@@ -15,7 +15,6 @@ pythonocc is a python package whose purpose is
 to provide 3D modeling features. It is intended
 to CAD/PDM/PLM and BIM related development.
 
-
 Current build status
 ====================
 
@@ -514,4 +513,5 @@ Feedstock Maintainers
 
 * [@krande](https://github.com/krande/)
 * [@looooo](https://github.com/looooo/)
+* [@oursland](https://github.com/oursland/)
 
