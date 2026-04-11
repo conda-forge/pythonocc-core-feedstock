@@ -6,64 +6,9 @@ context:
   occt_version: "7.9.3"
   build: ${{ 2 + (100 if variant == "novtk" else 0) + (200 if variant == "all" else 0) }}
 
-package:
-  name: pythonocc-core
-  version: ${{ version }}
-
 source:
   url: https://github.com/tpaviot/pythonocc-core/archive/${{ version }}.tar.gz
   sha256: a25e3d136267271abfc71b35dd4b6d0cda65964fb3a69a0b4b7712681113e9a6
-
-build:
-  number: ${{ build }}
-  string: ${{ variant }}_h${{ hash }}_${{ build }}
-  script:
-    file: build
-
-requirements:
-  build:
-    - if: build_platform != target_platform
-      then: python
-    - if: build_platform != target_platform
-      then: numpy
-    - if: build_platform != target_platform
-      then: cross-python_${{ target_platform }}
-    - ${{ compiler("cxx") }}
-    - ${{ stdlib("c") }}
-    - ninja
-    - cmake
-    - swig
-  host:
-    - python
-    - occt ==${{ occt_version }} *${{ variant }}*
-    - numpy
-    - if: linux
-      then: libgl-devel
-    - if: linux
-      then: xorg-libxi
-  run:
-    - python
-    - occt ==${{ occt_version }} *${{ variant }}*
-    - svgwrite
-  run_constraints:
-    - occt ==${{ occt_version }} *${{ variant }}*
-
-tests:
-  - python:
-      imports:
-        - OCC
-        - OCC.Core.BRepPrimAPI
-      pip_check: false
-  - script:
-      file: run_test
-    files:
-      source:
-        - test
-    requirements:
-      run:
-        - pyqt >=5
-        - pytest
-        - mypy
 
 about:
   license: LGPL-3.0-or-later
@@ -81,3 +26,77 @@ extra:
     - oursland
     - krande
     - looooo
+
+outputs:
+  - package:
+      name: pythonocc-core
+      version: ${{ version }}
+    build:
+      number: ${{ build }}
+      string: ${{ variant }}_h${{ hash }}_${{ build }}
+      script:
+        file: build
+    requirements:
+      build:
+        - if: build_platform != target_platform
+          then: python
+        - if: build_platform != target_platform
+          then: numpy
+        - if: build_platform != target_platform
+          then: cross-python_${{ target_platform }}
+        - ${{ compiler("cxx") }}
+        - ${{ stdlib("c") }}
+        - ninja
+        - cmake
+        - swig
+      host:
+        - python
+        - occt ==${{ occt_version }} *${{ variant }}*
+        - numpy
+        - if: linux
+          then: libgl-devel
+        - if: linux
+          then: xorg-libxi
+      run:
+        - python
+        - occt ==${{ occt_version }} *${{ variant }}*
+        - svgwrite
+      run_constraints:
+        - occt ==${{ occt_version }} *${{ variant }}*
+    tests:
+      - python:
+          imports:
+            - OCC
+            - OCC.Core.BRepPrimAPI
+          pip_check: false
+      - script:
+          file: run_test
+        files:
+          source:
+            - test
+        requirements:
+          run:
+            - pyqt >=5
+            - pytest
+            - mypy
+
+  - package:
+      name: pythonocc-core-source
+      version: ${{ version }}
+    build:
+      number: ${{ build }}
+      string: ${{ hash }}_${{ build }}
+      noarch: generic
+      # Single noarch build: linux-64 + occt "all" matrix only (skip all other CI variants)
+      skip:
+        - 'variant != "all"'
+        - 'target_platform != "linux-64"'
+      script:
+        file: install_source
+    requirements:
+      run:
+        - pythonocc-core ==${{ version }}
+    tests:
+      - package_contents:
+          files:
+            - share/pythonocc-core-source/CMakeLists.txt
