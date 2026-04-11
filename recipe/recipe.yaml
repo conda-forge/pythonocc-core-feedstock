@@ -1,31 +1,20 @@
 schema_version: 1
-
-# Higher number -> Always prioritize "all" variant over "novtk" variant (base 2 + 100 novtk / +200 all)
 context:
   version: "7.9.3"
   occt_version: "7.9.3"
-  build: ${{ 2 + (100 if variant == "novtk" else 0) + (200 if variant == "all" else 0) }}
+  # Higher number -> Always prioritize "all" variant over "novtk" variant (base 3 + 100 novtk / +200 all)
+  build: ${{ 3 + (100 if variant == "novtk" else 0) + (200 if variant == "all" else 0) }}
+
+recipe:
+  name: pythonocc-core
+  version: ${{ version }}
 
 source:
   url: https://github.com/tpaviot/pythonocc-core/archive/${{ version }}.tar.gz
   sha256: a25e3d136267271abfc71b35dd4b6d0cda65964fb3a69a0b4b7712681113e9a6
 
-about:
-  license: LGPL-3.0-or-later
-  license_file: LICENSE
-  summary: python bindings for opencascade (occt)
-  description: |
-    pythonocc is a python package whose purpose is
-    to provide 3D modeling features. It is intended
-    to CAD/PDM/PLM and BIM related development.
-  homepage: https://github.com/tpaviot/pythonocc-core
-  repository: https://github.com/tpaviot/pythonocc-core
-
-extra:
-  recipe-maintainers:
-    - oursland
-    - krande
-    - looooo
+build:
+  number: ${{ build }}
 
 outputs:
   - package:
@@ -100,3 +89,20 @@ outputs:
       - package_contents:
           files:
             - share/pythonocc-core-source/CMakeLists.txt
+
+about:
+  license: LGPL-3.0-or-later
+  license_file: LICENSE
+  summary: python bindings for opencascade (occt)
+  description: |
+    pythonocc is a python package whose purpose is
+    to provide 3D modeling features. It is intended
+    to CAD/PDM/PLM and BIM related development.
+  homepage: https://github.com/tpaviot/pythonocc-core
+  repository: https://github.com/tpaviot/pythonocc-core
+
+extra:
+  recipe-maintainers:
+    - oursland
+    - krande
+    - looooo
