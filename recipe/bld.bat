@@ -14,3 +14,8 @@ if errorlevel 1 exit 1
 
 ninja install
 if errorlevel 1 exit 1
+
+REM copy the source
+cd ..
+xcopy src "%LIBRARY_PREFIX%\src\pythonocc-core\src" /s /e /i
+if errorlevel 1 exit 1

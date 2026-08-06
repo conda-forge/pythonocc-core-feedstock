@@ -15,3 +15,8 @@ cmake ${CMAKE_ARGS} -G Ninja \
     ..
 
 ninja install
+
+# copy the source
+mkdir -p $PREFIX/src
+mkdir -p $PREFIX/src/pythonocc-core
+cp -r src $PREFIX/src/pythonocc-core
