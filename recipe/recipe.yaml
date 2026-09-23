@@ -1,13 +1,12 @@
-# Higher number -> Always prioritize "all" variant over "novtk" variant
 schema_version: 1
 
 context:
   version: "8.0.1"
-  occt_version: "8.0.1"
-  build: 0
-  # this is where the final build number is calculated depending on the matrix of python/mpi variants
-  variant_num: ${{ 100 if variant == 'novtk' else 200 }}
-  build_num: ${{ build + variant_num }}
+  # Builds up to and including the first 8.0.1 ones encoded the occt variant in
+  # the build number (novtk -> +100, all -> +200). That matrix is gone, a single
+  # build now works with either occt variant, so the build number has to start
+  # above the highest number ever published.
+  build: 201
 
 package:
   name: pythonocc-core
@@ -18,8 +17,7 @@ source:
   sha256: 77345f333614374911d946a37bf89c3bbf2d285117d3d37b4197fcd28dc598a3
 
 build:
-  number: ${{ build_num }}
-  string: ${{ variant }}_h${{ hash }}_${{ build_num }}
+  number: ${{ build }}
 
 requirements:
   build:
@@ -36,7 +34,13 @@ requirements:
     - swig
   host:
     - python
-    - occt ==${{ occt_version }} *${{ variant }}*
+    # Deliberately unpinned to an occt variant: pythonocc-core links only OCCT
+    # libraries that both the 'novtk' and the 'all' build of occt provide, so
+    # which one ends up installed is the consumer's choice. See
+    # https://github.com/conda-forge/pythonocc-core-feedstock/issues/27. The
+    # version range is pinned for us by occt's run_exports (occt breaks ABI
+    # between minor versions), the tests below check both variants.
+    - occt
     - numpy
     - if: linux
       then: libgl-devel
@@ -44,10 +48,7 @@ requirements:
       then: xorg-libxi
   run:
     - python
-    - occt ==${{ occt_version }} *${{ variant }}*
     - svgwrite
-  run_constraints:
-    - occt ==${{ occt_version }} *${{ variant }}*
 
 tests:
   - python:
@@ -55,11 +56,36 @@ tests:
         - OCC
         - OCC.Core.BRepPrimAPI
       pip_check: false
+
+  # The upstream test suite is run twice, once per occt variant, to keep the
+  # unpinned occt dependency above honest: should pythonocc-core ever start to
+  # link a VTK-only OCCT library, the 'novtk' run fails. Both runs execute the
+  # very same script, only the occt build resolved into the test environment
+  # differs, and run_tests.py asserts it got the variant it was asked for.
+  - script:
+      - python run_tests.py novtk
     files:
       source:
         - test
+      recipe:
+        - run_tests.py
     requirements:
       run:
+        - occt * *novtk*
+        - pyqt >=5
+        - pytest
+        - mypy
+
+  - script:
+      - python run_tests.py all
+    files:
+      source:
+        - test
+      recipe:
+        - run_tests.py
+    requirements:
+      run:
+        - occt * *all*
         - pyqt >=5
         - pytest
         - mypy
