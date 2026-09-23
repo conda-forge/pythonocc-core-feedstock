@@ -36,7 +36,7 @@ requirements:
     - swig
   host:
     - python
-    - occt ${{ occt_version }} *${{ variant }}*
+    - occt ==${{ occt_version }} *${{ variant }}*
     - numpy
     - if: linux
       then: libgl-devel
@@ -44,10 +44,10 @@ requirements:
       then: xorg-libxi
   run:
     - python
-    - occt ${{ occt_version }} *${{ variant }}*
+    - occt ==${{ occt_version }} *${{ variant }}*
     - svgwrite
   run_constraints:
-    - occt ${{ occt_version }} *${{ variant }}*
+    - occt ==${{ occt_version }} *${{ variant }}*
 
 tests:
   - python:
