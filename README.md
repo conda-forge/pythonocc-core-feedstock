@@ -15,7 +15,6 @@ pythonocc is a python package whose purpose is
 to provide 3D modeling features. It is intended
 to CAD/PDM/PLM and BIM related development.
 
-
 Current build status
 ====================
 
@@ -111,73 +110,73 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.10.____cpythonvariantall</td>
+              <td>osx_arm64_python3.10.____cpythonvariantall</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.10.____cpythonvariantall" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.10.____cpythonvariantall" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.10.____cpythonvariantnovtk</td>
+              <td>osx_arm64_python3.10.____cpythonvariantnovtk</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.10.____cpythonvariantnovtk" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.10.____cpythonvariantnovtk" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.11.____cpythonvariantall</td>
+              <td>osx_arm64_python3.11.____cpythonvariantall</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.11.____cpythonvariantall" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.11.____cpythonvariantall" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.11.____cpythonvariantnovtk</td>
+              <td>osx_arm64_python3.11.____cpythonvariantnovtk</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.11.____cpythonvariantnovtk" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.11.____cpythonvariantnovtk" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.12.____cpythonvariantall</td>
+              <td>osx_arm64_python3.12.____cpythonvariantall</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.12.____cpythonvariantall" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.12.____cpythonvariantall" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.12.____cpythonvariantnovtk</td>
+              <td>osx_arm64_python3.12.____cpythonvariantnovtk</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.12.____cpythonvariantnovtk" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.12.____cpythonvariantnovtk" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.13.____cp313variantall</td>
+              <td>osx_arm64_python3.13.____cp313variantall</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.13.____cp313variantall" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.13.____cp313variantall" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.13.____cp313variantnovtk</td>
+              <td>osx_arm64_python3.13.____cp313variantnovtk</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.13.____cp313variantnovtk" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.13.____cp313variantnovtk" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.14.____cp314variantall</td>
+              <td>osx_arm64_python3.14.____cp314variantall</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.14.____cp314variantall" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.14.____cp314variantall" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.14.____cp314variantnovtk</td>
+              <td>osx_arm64_python3.14.____cp314variantnovtk</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9148&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.14.____cp314variantnovtk" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonocc-core-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.14.____cp314variantnovtk" alt="variant">
                 </a>
               </td>
             </tr>
@@ -205,31 +204,73 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `pythonocc-core` can be installed with `conda`:
+How to use
+----------
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda install pythonocc-core
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba install pythonocc-core
 ```
 
-It is possible to list all of the versions of `pythonocc-core` available on your platform with `conda`:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+# for adding to your local project
+pixi add pythonocc-core
+# for installing globally
+pixi global install pythonocc-core
+```
+
+</details>
+
+Search package versions
+-----------------------
+
+It is possible to list all of the versions of `pythonocc-core` available on your platform:
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda search pythonocc-core --channel conda-forge
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba search pythonocc-core --channel conda-forge
 ```
 
-Alternatively, `mamba repoquery` may provide more information:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+pixi search pythonocc-core --channel conda-forge
+```
+
+</details>
+
+<details>
+<summary>With mamba repoquery, which may provide more information</summary>
 
 ```
 # Search all versions available on your platform:
@@ -241,6 +282,8 @@ mamba repoquery whoneeds pythonocc-core --channel conda-forge
 # List dependencies of `pythonocc-core`:
 mamba repoquery depends pythonocc-core --channel conda-forge
 ```
+
+</details>
 
 
 About conda-forge

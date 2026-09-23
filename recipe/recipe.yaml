@@ -1,0 +1,82 @@
+# Higher number -> Always prioritize "all" variant over "novtk" variant
+schema_version: 1
+
+context:
+  version: "8.0.1"
+  occt_version: "8.0.1"
+  build: 0
+  # this is where the final build number is calculated depending on the matrix of python/mpi variants
+  variant_num: ${{ 100 if variant == 'novtk' else 200 }}
+  build_num: ${{ build + variant_num }}
+
+package:
+  name: pythonocc-core
+  version: ${{ version }}
+
+source:
+  url: https://github.com/tpaviot/pythonocc-core/archive/${{ version }}.tar.gz
+  sha256: 77345f333614374911d946a37bf89c3bbf2d285117d3d37b4197fcd28dc598a3
+
+build:
+  number: ${{ build_num }}
+  string: ${{ variant }}_h${{ hash }}_${{ build_num }}
+
+requirements:
+  build:
+    - if: build_platform != target_platform
+      then: python
+    - if: build_platform != target_platform
+      then: numpy
+    - if: build_platform != target_platform
+      then: cross-python_${{ target_platform }}
+    - ${{ compiler('cxx') }}
+    - ${{ stdlib("c") }}
+    - ninja
+    - cmake
+    - swig
+  host:
+    - python
+    - occt ==${{ occt_version }} *${{ variant }}*
+    - numpy
+    - if: linux
+      then: libgl-devel
+    - if: linux
+      then: xorg-libxi
+  run:
+    - python
+    - occt ==${{ occt_version }} *${{ variant }}*
+    - svgwrite
+  run_constraints:
+    - occt ==${{ occt_version }} *${{ variant }}*
+
+tests:
+  - python:
+      imports:
+        - OCC
+        - OCC.Core.BRepPrimAPI
+      pip_check: false
+    files:
+      source:
+        - test
+    requirements:
+      run:
+        - pyqt >=5
+        - pytest
+        - mypy
+
+about:
+  license: LGPL-3.0-or-later
+  license_file: LICENSE
+  summary: python bindings for opencascade (occt)
+  description: |
+    pythonocc is a python package whose purpose is
+    to provide 3D modeling features. It is intended
+    to CAD/PDM/PLM and BIM related development.
+  homepage: https://github.com/tpaviot/pythonocc-core
+  repository: https://github.com/tpaviot/pythonocc-core
+
+extra:
+  recipe-maintainers:
+    - oursland
+    - krande
+    - looooo
