@@ -1,7 +1,3 @@
-variant:
-  - novtk
-  - all
-
 python:
   - 3.10.* *_cpython
   - 3.11.* *_cpython
