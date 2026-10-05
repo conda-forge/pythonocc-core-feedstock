@@ -2,12 +2,12 @@
 schema_version: 1
 
 context:
-  version: "8.0.1"
+  version: "8.0.1.1"
   occt_version: "8.0.1"
   build: 0
   # this is where the final build number is calculated depending on the matrix of python/mpi variants
   variant_num: ${{ 100 if variant == 'novtk' else 200 }}
-  build_num: ${{ build + variant_num }}
+  build_num: 0
 
 package:
   name: pythonocc-core
@@ -15,7 +15,7 @@ package:
 
 source:
   url: https://github.com/tpaviot/pythonocc-core/archive/${{ version }}.tar.gz
-  sha256: 77345f333614374911d946a37bf89c3bbf2d285117d3d37b4197fcd28dc598a3
+  sha256: 648f85c8d768cc546741eb9eed57539c123d3b4d6e310e62a2c83367eaf3589c
 
 build:
   number: ${{ build_num }}
@@ -24,11 +24,10 @@ build:
 requirements:
   build:
     - if: build_platform != target_platform
-      then: python
-    - if: build_platform != target_platform
-      then: numpy
-    - if: build_platform != target_platform
-      then: cross-python_${{ target_platform }}
+      then:
+        - python
+        - numpy
+        - cross-python_${{ target_platform }}
     - ${{ compiler('cxx') }}
     - ${{ stdlib("c") }}
     - ninja
@@ -39,9 +38,9 @@ requirements:
     - occt ==${{ occt_version }} *${{ variant }}*
     - numpy
     - if: linux
-      then: libgl-devel
-    - if: linux
-      then: xorg-libxi
+      then:
+        - libgl-devel
+        - xorg-libxi
   run:
     - python
     - occt ==${{ occt_version }} *${{ variant }}*
