@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "8.0.1.1"
+  version: "8.0.1.2"
   occt_version: "8.0.1"
   build: 0
   # this is where the final build number is calculated depending on the matrix of python/mpi variants
@@ -15,7 +15,7 @@ package:
 
 source:
   url: https://github.com/tpaviot/pythonocc-core/archive/${{ version }}.tar.gz
-  sha256: 648f85c8d768cc546741eb9eed57539c123d3b4d6e310e62a2c83367eaf3589c
+  sha256: 3e668e0212103535e8b8e6d67a3ed923853a5064d40d4b084ed2154a6aa7abb0
 
 build:
   number: ${{ build_num }}
