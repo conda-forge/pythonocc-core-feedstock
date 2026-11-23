@@ -4,10 +4,10 @@ schema_version: 1
 context:
   version: "8.0.1.2"
   occt_version: "8.0.1"
-  build: 0
+  build: 1
   # this is where the final build number is calculated depending on the matrix of python/mpi variants
   variant_num: ${{ 100 if variant == 'novtk' else 200 }}
-  build_num: 0
+  build_num: 1
 
 package:
   name: pythonocc-core
