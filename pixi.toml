@@ -128,6 +128,24 @@ description = "Debug pythonocc-core-feedstock with variant linux_64_python3.14._
 [feature.build.tasks."inspect-linux_64_python3.14.____cp314variantnovtk"]
 cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_python3.14.____cp314variantnovtk.yaml"
 description = "List contents of pythonocc-core-feedstock packages built for variant linux_64_python3.14.____cp314variantnovtk"
+[feature.build.tasks."build-linux_64_python3.15.____cp315variantall"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_python3.15.____cp315variantall.yaml --target-platform linux-64"
+description = "Build pythonocc-core-feedstock with variant linux_64_python3.15.____cp315variantall directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_python3.15.____cp315variantall"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_python3.15.____cp315variantall.yaml --target-platform linux-64"
+description = "Debug pythonocc-core-feedstock with variant linux_64_python3.15.____cp315variantall directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_python3.15.____cp315variantall"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_python3.15.____cp315variantall.yaml"
+description = "List contents of pythonocc-core-feedstock packages built for variant linux_64_python3.15.____cp315variantall"
+[feature.build.tasks."build-linux_64_python3.15.____cp315variantnovtk"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_python3.15.____cp315variantnovtk.yaml --target-platform linux-64"
+description = "Build pythonocc-core-feedstock with variant linux_64_python3.15.____cp315variantnovtk directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_python3.15.____cp315variantnovtk"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_python3.15.____cp315variantnovtk.yaml --target-platform linux-64"
+description = "Debug pythonocc-core-feedstock with variant linux_64_python3.15.____cp315variantnovtk directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_python3.15.____cp315variantnovtk"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_python3.15.____cp315variantnovtk.yaml"
+description = "List contents of pythonocc-core-feedstock packages built for variant linux_64_python3.15.____cp315variantnovtk"
 [feature.build.tasks."build-linux_aarch64_python3.10.____cpythonvariantall"]
 cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_python3.10.____cpythonvariantall.yaml --target-platform linux-aarch64"
 description = "Build pythonocc-core-feedstock with variant linux_aarch64_python3.10.____cpythonvariantall directly (without setup scripts)"
@@ -218,6 +236,24 @@ description = "Debug pythonocc-core-feedstock with variant linux_aarch64_python3
 [feature.build.tasks."inspect-linux_aarch64_python3.14.____cp314variantnovtk"]
 cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_python3.14.____cp314variantnovtk.yaml"
 description = "List contents of pythonocc-core-feedstock packages built for variant linux_aarch64_python3.14.____cp314variantnovtk"
+[feature.build.tasks."build-linux_aarch64_python3.15.____cp315variantall"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_python3.15.____cp315variantall.yaml --target-platform linux-aarch64"
+description = "Build pythonocc-core-feedstock with variant linux_aarch64_python3.15.____cp315variantall directly (without setup scripts)"
+[feature.build.tasks."debug-linux_aarch64_python3.15.____cp315variantall"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_aarch64_python3.15.____cp315variantall.yaml --target-platform linux-aarch64"
+description = "Debug pythonocc-core-feedstock with variant linux_aarch64_python3.15.____cp315variantall directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_aarch64_python3.15.____cp315variantall"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_python3.15.____cp315variantall.yaml"
+description = "List contents of pythonocc-core-feedstock packages built for variant linux_aarch64_python3.15.____cp315variantall"
+[feature.build.tasks."build-linux_aarch64_python3.15.____cp315variantnovtk"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_python3.15.____cp315variantnovtk.yaml --target-platform linux-aarch64"
+description = "Build pythonocc-core-feedstock with variant linux_aarch64_python3.15.____cp315variantnovtk directly (without setup scripts)"
+[feature.build.tasks."debug-linux_aarch64_python3.15.____cp315variantnovtk"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_aarch64_python3.15.____cp315variantnovtk.yaml --target-platform linux-aarch64"
+description = "Debug pythonocc-core-feedstock with variant linux_aarch64_python3.15.____cp315variantnovtk directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_aarch64_python3.15.____cp315variantnovtk"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_python3.15.____cp315variantnovtk.yaml"
+description = "List contents of pythonocc-core-feedstock packages built for variant linux_aarch64_python3.15.____cp315variantnovtk"
 [feature.build.tasks."build-osx_64_python3.10.____cpythonvariantall"]
 cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_python3.10.____cpythonvariantall.yaml --target-platform osx-64"
 description = "Build pythonocc-core-feedstock with variant osx_64_python3.10.____cpythonvariantall directly (without setup scripts)"
@@ -308,6 +344,24 @@ description = "Debug pythonocc-core-feedstock with variant osx_64_python3.14.___
 [feature.build.tasks."inspect-osx_64_python3.14.____cp314variantnovtk"]
 cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_python3.14.____cp314variantnovtk.yaml"
 description = "List contents of pythonocc-core-feedstock packages built for variant osx_64_python3.14.____cp314variantnovtk"
+[feature.build.tasks."build-osx_64_python3.15.____cp315variantall"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_python3.15.____cp315variantall.yaml --target-platform osx-64"
+description = "Build pythonocc-core-feedstock with variant osx_64_python3.15.____cp315variantall directly (without setup scripts)"
+[feature.build.tasks."debug-osx_64_python3.15.____cp315variantall"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_64_python3.15.____cp315variantall.yaml --target-platform osx-64"
+description = "Debug pythonocc-core-feedstock with variant osx_64_python3.15.____cp315variantall directly (without setup scripts)"
+[feature.build.tasks."inspect-osx_64_python3.15.____cp315variantall"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_python3.15.____cp315variantall.yaml"
+description = "List contents of pythonocc-core-feedstock packages built for variant osx_64_python3.15.____cp315variantall"
+[feature.build.tasks."build-osx_64_python3.15.____cp315variantnovtk"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_python3.15.____cp315variantnovtk.yaml --target-platform osx-64"
+description = "Build pythonocc-core-feedstock with variant osx_64_python3.15.____cp315variantnovtk directly (without setup scripts)"
+[feature.build.tasks."debug-osx_64_python3.15.____cp315variantnovtk"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_64_python3.15.____cp315variantnovtk.yaml --target-platform osx-64"
+description = "Debug pythonocc-core-feedstock with variant osx_64_python3.15.____cp315variantnovtk directly (without setup scripts)"
+[feature.build.tasks."inspect-osx_64_python3.15.____cp315variantnovtk"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_python3.15.____cp315variantnovtk.yaml"
+description = "List contents of pythonocc-core-feedstock packages built for variant osx_64_python3.15.____cp315variantnovtk"
 [feature.build.tasks."build-osx_arm64_python3.10.____cpythonvariantall"]
 cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_python3.10.____cpythonvariantall.yaml --target-platform osx-arm64"
 description = "Build pythonocc-core-feedstock with variant osx_arm64_python3.10.____cpythonvariantall directly (without setup scripts)"
@@ -398,6 +452,24 @@ description = "Debug pythonocc-core-feedstock with variant osx_arm64_python3.14.
 [feature.build.tasks."inspect-osx_arm64_python3.14.____cp314variantnovtk"]
 cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_python3.14.____cp314variantnovtk.yaml"
 description = "List contents of pythonocc-core-feedstock packages built for variant osx_arm64_python3.14.____cp314variantnovtk"
+[feature.build.tasks."build-osx_arm64_python3.15.____cp315variantall"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_python3.15.____cp315variantall.yaml --target-platform osx-arm64"
+description = "Build pythonocc-core-feedstock with variant osx_arm64_python3.15.____cp315variantall directly (without setup scripts)"
+[feature.build.tasks."debug-osx_arm64_python3.15.____cp315variantall"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_arm64_python3.15.____cp315variantall.yaml --target-platform osx-arm64"
+description = "Debug pythonocc-core-feedstock with variant osx_arm64_python3.15.____cp315variantall directly (without setup scripts)"
+[feature.build.tasks."inspect-osx_arm64_python3.15.____cp315variantall"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_python3.15.____cp315variantall.yaml"
+description = "List contents of pythonocc-core-feedstock packages built for variant osx_arm64_python3.15.____cp315variantall"
+[feature.build.tasks."build-osx_arm64_python3.15.____cp315variantnovtk"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_python3.15.____cp315variantnovtk.yaml --target-platform osx-arm64"
+description = "Build pythonocc-core-feedstock with variant osx_arm64_python3.15.____cp315variantnovtk directly (without setup scripts)"
+[feature.build.tasks."debug-osx_arm64_python3.15.____cp315variantnovtk"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_arm64_python3.15.____cp315variantnovtk.yaml --target-platform osx-arm64"
+description = "Debug pythonocc-core-feedstock with variant osx_arm64_python3.15.____cp315variantnovtk directly (without setup scripts)"
+[feature.build.tasks."inspect-osx_arm64_python3.15.____cp315variantnovtk"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_python3.15.____cp315variantnovtk.yaml"
+description = "List contents of pythonocc-core-feedstock packages built for variant osx_arm64_python3.15.____cp315variantnovtk"
 [feature.build.tasks."build-win_64_python3.10.____cpythonvariantall"]
 cmd = "rattler-build build --recipe recipe -m .ci_support/win_64_python3.10.____cpythonvariantall.yaml --target-platform win-64"
 description = "Build pythonocc-core-feedstock with variant win_64_python3.10.____cpythonvariantall directly (without setup scripts)"
@@ -488,6 +560,24 @@ description = "Debug pythonocc-core-feedstock with variant win_64_python3.14.___
 [feature.build.tasks."inspect-win_64_python3.14.____cp314variantnovtk"]
 cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/win_64_python3.14.____cp314variantnovtk.yaml"
 description = "List contents of pythonocc-core-feedstock packages built for variant win_64_python3.14.____cp314variantnovtk"
+[feature.build.tasks."build-win_64_python3.15.____cp315variantall"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/win_64_python3.15.____cp315variantall.yaml --target-platform win-64"
+description = "Build pythonocc-core-feedstock with variant win_64_python3.15.____cp315variantall directly (without setup scripts)"
+[feature.build.tasks."debug-win_64_python3.15.____cp315variantall"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/win_64_python3.15.____cp315variantall.yaml --target-platform win-64"
+description = "Debug pythonocc-core-feedstock with variant win_64_python3.15.____cp315variantall directly (without setup scripts)"
+[feature.build.tasks."inspect-win_64_python3.15.____cp315variantall"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/win_64_python3.15.____cp315variantall.yaml"
+description = "List contents of pythonocc-core-feedstock packages built for variant win_64_python3.15.____cp315variantall"
+[feature.build.tasks."build-win_64_python3.15.____cp315variantnovtk"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/win_64_python3.15.____cp315variantnovtk.yaml --target-platform win-64"
+description = "Build pythonocc-core-feedstock with variant win_64_python3.15.____cp315variantnovtk directly (without setup scripts)"
+[feature.build.tasks."debug-win_64_python3.15.____cp315variantnovtk"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/win_64_python3.15.____cp315variantnovtk.yaml --target-platform win-64"
+description = "Debug pythonocc-core-feedstock with variant win_64_python3.15.____cp315variantnovtk directly (without setup scripts)"
+[feature.build.tasks."inspect-win_64_python3.15.____cp315variantnovtk"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/win_64_python3.15.____cp315variantnovtk.yaml"
+description = "List contents of pythonocc-core-feedstock packages built for variant win_64_python3.15.____cp315variantnovtk"
 
 [environments]
 build = ["build"]
